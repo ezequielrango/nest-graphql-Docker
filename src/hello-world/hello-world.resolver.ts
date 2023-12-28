@@ -5,7 +5,7 @@ export class HelloWorldResolver {
 
     @Query( () => String, { description: 'Hola Mundo es lo que retorna', name: 'hello' } )
     helloWorld(): string {
-        return 'Hola Mundo - desde mi pc';
+        return 'Hola Mundo - desde mi pc-vim';
     }
 
     @Query( () => Float, { name: 'randomNumber' } )
@@ -22,3 +22,4 @@ export class HelloWorldResolver {
     }
 
 }
+            
